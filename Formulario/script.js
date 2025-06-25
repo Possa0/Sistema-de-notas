@@ -1,6 +1,6 @@
 
 const disciplinas = ["algebra", "geometria", "biologia", "quimica", "fisica", "filosofia", "sociologia", "geografia", "historia", "portugues", "redacao", "ingles", "ed_fisica", "artes", "literatura"];
-const campos = ["escrita", "pratica", "partipacao", "simulado"];
+const campos = ["escrita", "pratica", "participacao", "simulado"];
 const maximos = {escrita: 3, pratica: 2, participacao:2, simulado: 2};
 
 //Atualizar total sempre que um campo for alterado
