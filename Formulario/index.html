@@ -48,14 +48,19 @@
                     <input id="simulado" type="number" max="3" min="0" step="0.1" required>
                 </fieldset>
                 <section id="total">Total:0/10</section>
-                <button onclick="">Salvar notas</button>
+                <button onclick="salvarNotas()">Salvar notas</button>
             </form>
         </section>
         <section id="msg"></section>
             <h2>Notas Salvas</h2>
-            <button onclick="">Limpar notas</button> 
-            <li><ul id="historicoBody"></ul></li>
+            <button onclick="limparTodasNotas()">Limpar notas</button> 
+            <ul id="historicoBody"></ul>
     </main>
+    <footer>
+        <h5>
+            Criado pela Turma da eletiva de Lógica de programação 2025.1
+        </h5>
+    </footer>
 </body>
 <script src="script.js"></script>
 </html>
